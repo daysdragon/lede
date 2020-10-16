@@ -208,5 +208,5 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@master
         with:
-          name: OpenWrt firmware
+          name: lede firmware
           path: ./bin/
